@@ -23,6 +23,7 @@ wget https://files.pythonhosted.org/packages/ef/2c/f7a96f39ccda75c3c8caed0a81e8d
 wget https://files.pythonhosted.org/packages/d3/e1/f8dec8a6cb938f83ec064cb18e9753be9697042dbf3204b02024571036fc/bflb-mcu-tool-1.8.3.tar.gz
 wget https://files.pythonhosted.org/packages/f3/68/132b95fb5499449ddf754c506b296f101d4bd85be044d2cd3ed6e0209190/bflb-mcu-tool-1.8.4.tar.gz
 wget https://files.pythonhosted.org/packages/c1/69/5a6b3d09338c65a143f6e48b6fc624d44db26c530c50d08097c1fd5e7232/bflb-mcu-tool-1.8.6.tar.gz
+wget https://files.pythonhosted.org/packages/60/c3/17068f422646fdafe7b9787aa319f0b2fd446c32b143aa04f3f939aca36f/bflb-mcu-tool-1.8.7.tar.gz
 
 mkdir bflb-mcu-tool
 cd bflb-mcu-tool
@@ -46,3 +47,13 @@ git checkout -b main
 ../build_release_commit.sh 1.7.6 2022-08-10T12:00:00+0000
 ../build_release_commit.sh 1.7.6.post2 2022-08-10T13:00:00+0000
 ../build_release_commit.sh 1.8.0 2022-09-02T12:00:00+0000
+../build_release_commit.sh 1.8.1 2022-11-25T12:00:00+0000
+../build_release_commit.sh 1.8.2 2023-02-02T12:00:00+0000
+../build_release_commit.sh 1.8.3 2023-02-24T12:00:00+0000
+../build_release_commit.sh 1.8.4 2023-04-13T12:00:00+0000
+../build_release_commit.sh 1.8.6 2023-09-12T12:00:00+0000
+../build_release_commit.sh 1.8.7 2023-11-22T12:00:00+0000
+
+## after update
+# git push
+# git push tag [insert tag number here]
